@@ -1,0 +1,75 @@
+.section {
+  margin: 10px;
+}
+.section h1 {
+  margin: 20px 0;
+}
+.section > p {
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.section > h1:hover + p {
+  opacity: 1;
+}
+.section input {
+  margin: 10px 0;
+  padding: 8px 16px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.section button {
+  font-size: 20px;
+  border: 2px solid #d5d5d5;
+  padding: 8px 16px;
+  color: #9c9c9c;
+  border-radius: 4px;
+  color: #000;
+  border-color: #000;
+}
+/* .section button:hover {
+  background-color: #fff;
+} */
+.section button.inactive {
+  background-color: #e8e8e8;
+  border-color: #9c9c9c;
+  color: #9c9c9c;
+}
+.timer {
+  display: flex;
+}
+.field {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.field .value {
+  color: #161616;
+  margin-top: 15px;
+  font-size: 40px;
+}
+.field .label {
+  color: #090909;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.mod {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 15px;
+  display: none;
+  align-items: center;
+  background-color: rgb(254, 80, 68);
+  border-radius: 10px;
+}
+div.snackbar-box {
+  border-radius: 10px;
+  min-width: 500px;
+  letter-spacing: 2.2px;
+}

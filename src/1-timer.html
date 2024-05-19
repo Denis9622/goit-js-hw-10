@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="javascript.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>TIMER</title>
+  </head>
+  <body>
+    <section class="section">
+      <a class="section-link" href="./index.html">Go to home</a>
+      <h1>Welcome to page TIMER</h1>
+      <p>Choise date click button start</p>
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </section>
+    <!-- 
+    <div class="mod iziToast">
+      <button class="mod-btn">
+        <svg class="mod-icon" width="50" height="50">
+          <use href="./img/icon.svg#close-icon"></use>
+        </svg>
+      </button>
+      <p class="mod-decs">Please choose a date in the future</p>
+    </div> -->
+
+    <script type="module" src="./js/1-timer.js"></script>
+  </body>
+</html>
